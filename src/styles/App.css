@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Cake;
+  src: url(../fonts/CookerCakeDemo.otf);
+}
+
+.App {
+  background-color: rgba(229, 218, 228, 1);
+  height: 100vh;
+}
+
+.sample {
+  height: 100%;
+  background-color: aliceblue;
+}
+
+
