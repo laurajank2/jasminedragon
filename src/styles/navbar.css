@@ -3,20 +3,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 0 1rem
 }
 
 .site-title {
-    font-size: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.boba-cup {
+    width: 2.5rem;
+    height: 1.5rem;
+}
+
+.sub-title {
+    color: #5C1139;
+    font-family: Futura;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+
 }
 
 .navbar ul {
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
     list-style: none;
     display: flex;
-    gap: 1rem
+    gap: 2rem
 }
 
 .navbar a {

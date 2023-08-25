@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(229, 218, 228, 1);
+    font-size: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    align-items: center;
+}
+
+.dragon {
+    display: flex;
+    height: 10rem;
+}
+
+.boba {
+    display:flex;
+    
+    height: 5rem;
+}

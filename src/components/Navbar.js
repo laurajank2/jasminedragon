@@ -3,24 +3,22 @@ import {HashLink as Link} from 'react-router-hash-link'
 
 export default function Navbar() {
     return <nav className="navbar">
-        <a href="/" className="site-title">
-            Home
-        </a>
+       <Link to='#home' className='site-title' smooth><img src="https://i.ibb.co/zsb9M9m/Untitled-Artwork-3.png" alt="Boba cup" border="0" className='boba-cup'/></Link>
         <ul>
             <li>
-                <a href="/About">About</a>
+                <Link to='#events' className='sub-title' smooth>About</Link>
             </li>
             <li>
-                <Link to='#events' >Events</Link>
+                <Link to='#events' className='sub-title' smooth>Events</Link>
             </li>
             <li>
-                <a href="/Calendar">Calendar</a>
+                <Link to='#events' className='sub-title' smooth>Calendar</Link>
             </li>
             <li>
-                <a href="/Contact">Contact</a>
+                <Link to='#events' className='sub-title' smooth>Contact</Link>
             </li>
             <li>
-                <a href="/Join">Join!</a>
+                <Link to='#events' className='sub-title' smooth>Join!</Link>
             </li>
         </ul>
     </nav>

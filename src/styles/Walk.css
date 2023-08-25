@@ -1,0 +1,8 @@
+.container {
+    background-color: rgba(229, 218, 228, 1);
+    stroke: rgba(92, 17, 57, 1);
+}
+
+.walk {
+    width: 100%;
+}

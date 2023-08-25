@@ -1,0 +1,74 @@
+.top-title {
+    flex: 75%;
+    color: #5C1139;
+    font-family: Cooker Cake Demo;
+    font-size: 12.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:2.5rem;
+    margin-top: -2rem;
+}
+
+.main-title {
+    color: #5C1139;
+    font-family: Cooker Cake Demo;
+    font-size: 12.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+
+.main-logo {
+    margin-top: -10rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(229, 218, 228, 1);
+}
+
+
+.column {
+    flex-basis: auto;
+    padding-left:2.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.small-title {
+    color: #5C1139;
+    font-family: Futura;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.join-button {
+    color: rgb(252, 179, 222);
+    font-family: Futura;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition-duration: 0.2s;
+    border-style: solid;
+    border-color:#5C1139;
+    background-color: #5C1139;
+    border-radius: 15px;
+    padding: 0.5rem;
+    width: 20rem
+}
+
+ 
+.join-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
