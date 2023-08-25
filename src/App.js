@@ -8,6 +8,7 @@ import StaggeredBoba from './components/StaggeredBoba';
 import Dragons from './components/Dragons';
 import Stamps from './components/Stamps';
 import Walk from './components/Walk';
+import About from './components/About';
 import {Route, Routes} from "react-router-dom"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Home />
         <Walk />
+        <About />
         <Events />
         <BobaBar />
         <StaggeredBoba />

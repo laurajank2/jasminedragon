@@ -6,7 +6,7 @@ export default function Navbar() {
        <Link to='#home' className='site-title' smooth><img src="https://i.ibb.co/zsb9M9m/Untitled-Artwork-3.png" alt="Boba cup" border="0" className='boba-cup'/></Link>
         <ul>
             <li>
-                <Link to='#events' className='sub-title' smooth>About</Link>
+                <Link to='#about' className='sub-title' smooth>About</Link>
             </li>
             <li>
                 <Link to='#events' className='sub-title' smooth>Events</Link>

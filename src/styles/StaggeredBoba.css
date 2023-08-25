@@ -1,6 +1,5 @@
 .big-container {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding: 2.5rem;
     background-color: rgba(229, 218, 228, 1);
     font-size: 100%;
 }

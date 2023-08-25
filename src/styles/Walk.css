@@ -1,8 +1,11 @@
 .container {
     background-color: rgba(229, 218, 228, 1);
-    stroke: rgba(92, 17, 57, 1);
+    font-size: 100%;
+    margin: -2.5rem;
+    margin-top: 2.5rem;
 }
 
 .walk {
     width: 100%;
+    filter: invert(6%) sepia(55%) saturate(6808%) hue-rotate(318deg) brightness(87%) contrast(89%);
 }
